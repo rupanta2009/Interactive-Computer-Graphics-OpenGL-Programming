@@ -1,33 +1,6 @@
-/*Program			: Assignment-4									*/
-/*Created by		: RUPANTA RWITEEJ DUTTA							*/
-/*Email Address		: rrd300@nyu.edu								*/
-/*Date of Creation	: 18th December 2015							*/
-/*School			: NYU Polytechnic School of Engineering			*/
-/*NYU ID			: N15786532										*/
-/*Net ID			: rrd300										*/
-/*Subject			: Interactive Computer Graphics					*/
 
-/*Compile & Run Instructions:                                                                                       */
-/*1. Download the "Rupanta_Rwiteej_Dutta_N15786532.zip" file.                                                       */
-/*2. Right click on the downloaded zip file and click on “Extract All...”. Give a directory path to unzip its       */
-/*      contents ("Compile_&_Run_Guide.pdf" and “Assignment4”) at that location and then click on “Extract”.        */
-/*3. Start Microsoft Visual Studio from the start menu.                                                             */
-/*4. Click on File -> New, a project with template Win32 Console Application (note: not Win32 Project), give a      */
-/*      project name. In the next pop-up window, click Application Settings, then choose Empty project (so that the */
-/*      two items chosen are Console application and Empty project), and click Finish. A new folder with the        */
-/*      project name is created.                                                                                    */
-/*5. On the Solution Explorer, right click on the Source Files tab. Then select Add -> Existing Item... and         */
-/*      navigate to the unzipped directory location (At Step 2) to select the "InitShader.cpp" and "rotate-cube-new */
-/*      .cpp" files and click Add.                                                                                  */
-/*6. On the Solution Explorer, right click on the Header Files tab. Then select Add -> Existing Item... and navigate*/
-/*      to the unzipped directory location (At Step 2) to select the "Angel-yjc.h", "CheckError.h", "mat-yjc-new.h" */
-/*      and "vec.h" files and click Add.                                                                            */
-/*7. Copy the Files "sphere.8.txt", "sphere.128.txt", "sphere.256.txt", "sphere.1024.txt", "fshader53.glsl",        */
-/*      "vshader53.glsl", "vshader_fireworks.glsl" and "fshader_fireworks.glsl" from the unzipped directory location*/
-/*      (At Step 2) and paste them in the Visual Studio Project folder, created after creation of new project       */
-/*      (At Step 4).																								*/
-/*8. To compile, click on Build -> Build [project name] (or Rebuild [project name]). To run, click on Debug -> Start*/
-/*      Without Debugging (or Ctrl+F5).                                                                             */
+/*Created by		: RUPANTA RWITEEJ DUTTA							*/							*/
+/*Date of Creation	: 18th December 2015							*/                                                           */
 
 #include "Angel-yjc.h"
 #include <stdio.h>
