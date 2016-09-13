@@ -160,7 +160,6 @@ class mat2 {
 		}
 	    }
 	}
-
 	return *this = a;
     }
     
