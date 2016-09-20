@@ -5,7 +5,6 @@ File Name: "fshader_fireworks.glsl":
 
 // #version 150 
 
-
 in  vec4 color;
 in float yPosition;
 out vec4 fColor;
@@ -16,5 +15,4 @@ void main()
 		discard;
 	else
 		fColor = color;
-} 
-
+}
