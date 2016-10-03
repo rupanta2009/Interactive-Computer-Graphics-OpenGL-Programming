@@ -131,7 +131,7 @@ vec4 spotSource()
 	vec3 E = normalize( -pos );
 	vec3 H = normalize( L + E );
 	
-	//Transform vertex normal into eye coordinates
+	// Transform vertex normal into eye coordinates
 	vec3 N = normalize(Normal_Matrix * vNormal);
 	
 	float dist = sqrt(pow((pos.x - LightPosition.x), 2) + pow((pos.y - LightPosition.y), 2) + pow((pos.z - LightPosition.z), 2));
