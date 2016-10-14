@@ -26,7 +26,6 @@ readShaderSource(const char* shaderFile)
     return buf;
 }
 
-
 // Create a GLSL program object from vertex and fragment shader files
 GLuint
 InitShader(const char* vShaderFile, const char* fShaderFile)
